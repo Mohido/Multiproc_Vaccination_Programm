@@ -1,12 +1,10 @@
 # Multiproc_Vaccination_Programm
-A simple terminal program for linux systems. It was made to implement the basics of multi-processes , files data manipulation with C.
+A simple collection of a linux-based terminal programs. It was made to implement the basics of multi-processes, files data manipulation (IPCs -Inner process communictations-) with C.
 
 # Notes: 
-1) This is a linux exclusive program that runs on linux based systems.
-2) Data.bin is the normal database file that the program uses.. you can: add, modify, delete or list all the data in the file. Plus, you can vaccinate the people in the file.
-3) Data2.bin is a backup of the original given data for testing. Data.bin contains the data after a certien procedure (Vaccinating procedure). So to start from the begining overwrite the Data.bin with the backed up file ( Data2.bin).
-4) userinterface.c contains the functionality of the first 4 options in the menu, while the "vaccinate people - start day" option is implemented in the main.c
-5) main.c is responsible for multi-processing part implementation. while userinterface.c is the responsible of handling file manipulation.
+1) These are a collection linux exclusive programs that runs on linux based systems. These programs only serve for IPC practicings and nothing more.
+2) Main_Program: has a full interface that handles everything.
+3) Practice_Program: is a simple program that has a specific task description to it. It serves for practicing more IPC rules.
 
 # How to use:
 1) Make sure that you are on a linux based system.
